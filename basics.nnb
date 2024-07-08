@@ -1,0 +1,25 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "let name = “Paul”;\r\nconsole.log(name); \r\n\r\n\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        }
+    ]
+}
