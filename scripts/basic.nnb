@@ -43,6 +43,156 @@
         {
             "language": "typescript",
             "source": [
+                " let name = \"Paul\"; \r\n console.log(name);\r\n let age = 42;\r\n console.log(age);\r\n\r\n                         "
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "Paul",
+                                "42",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "let cost = 0.5;\r\nlet numbers = 30; \r\nlet total = cost * numbers; \r\nconsole.log(\"total = \",total);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "total =  15",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "function addtwo (x, y) {\r\n\tlet total = x + y;\r\n\treturn total;\r\n}\r\nConsole.log(addtwo(5, 3))\r\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.error",
+                            "value": {
+                                "name": "ReferenceError",
+                                "message": "Console is not defined",
+                                "stack": "    at <Cell 5> [5, 7]\n    at <Cell 5> [8, 46]\n    at Script.runInContext (node:vm:148:12)\n    at Script.runInNewContext (node:vm:153:17)\n    at Object.runInNewContext (node:vm:309:38)\n    at C (c:\\Users\\norma\\.vscode\\extensions\\donjayamanne.typescript-notebook-2.0.6\\out\\extension\\server\\index.js:2:113345)\n    at t.execCode (c:\\Users\\norma\\.vscode\\extensions\\donjayamanne.typescript-notebook-2.0.6\\out\\extension\\server\\index.js:2:114312)\n    at k.<anonymous> (c:\\Users\\norma\\.vscode\\extensions\\donjayamanne.typescript-notebook-2.0.6\\out\\extension\\server\\index.js:2:142156)\n    at k.emit (node:events:519:28)\n    at k.emit (node:domain:488:12)"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "parseInt(password);\r\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.error",
+                            "value": {
+                                "name": "ReferenceError",
+                                "message": "password is not defined",
+                                "stack": "    at <Cell 7> [1, 8]\n    at <Cell 7> [4, 46]\n    at Script.runInContext (node:vm:148:12)\n    at Script.runInNewContext (node:vm:153:17)\n    at Object.runInNewContext (node:vm:309:38)\n    at C (c:\\Users\\norma\\.vscode\\extensions\\donjayamanne.typescript-notebook-2.0.6\\out\\extension\\server\\index.js:2:113345)\n    at t.execCode (c:\\Users\\norma\\.vscode\\extensions\\donjayamanne.typescript-notebook-2.0.6\\out\\extension\\server\\index.js:2:114312)\n    at k.<anonymous> (c:\\Users\\norma\\.vscode\\extensions\\donjayamanne.typescript-notebook-2.0.6\\out\\extension\\server\\index.js:2:142156)\n    at k.emit (node:events:519:28)\n    at k.emit (node:domain:488:12)"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "let age = 36;\r\nlet isMarried = false; \r\nlet citizen = true; \r\nlet pr = false;\r\nif ( (citizen || pr) && (isMarried || age >= 35) ) {\r\n    console.log(\"Can buy HDB\")\r\n}"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "Can buy HDB",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "let age = 9;\r\nlet gender = \"male\";\r\nif (age >= 19 && gender == \"male\"){\r\nconsole.log(\"You get to serve NS.\")\r\n\r\n}else {\r\n    console.log(\"You don't serve for NS.\")\r\n}"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "You don't serve for NS.",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
                 "console.log(4*2/1);"
             ],
             "outputs": [
